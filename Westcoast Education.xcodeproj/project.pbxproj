@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9140EBA27A18F00009BD038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9140EB927A18F00009BD038 /* AppDelegate.swift */; };
+		D9140EBC27A18F00009BD038 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9140EBB27A18F00009BD038 /* SceneDelegate.swift */; };
+		D9140EBE27A18F00009BD038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9140EBD27A18F00009BD038 /* ViewController.swift */; };
+		D9140EC127A18F00009BD038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9140EBF27A18F00009BD038 /* Main.storyboard */; };
+		D9140EC327A18F0A009BD038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9140EC227A18F0A009BD038 /* Assets.xcassets */; };
+		D9140EC627A18F0A009BD038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9140EC427A18F0A009BD038 /* LaunchScreen.storyboard */; };
+		D9140ED127A20684009BD038 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9140ED027A20684009BD038 /* CategoryViewController.swift */; };
+		D9140ED927A21B8A009BD038 /* CategoryMakeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9140ED827A21B8A009BD038 /* CategoryMakeTableViewController.swift */; };
+		D9304FBC27A9D0C400CF3299 /* MakeCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9304FBB27A9D0C400CF3299 /* MakeCourseViewController.swift */; };
+		D9304FC327AD6FEF00CF3299 /* MakeHeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9304FC227AD6FEF00CF3299 /* MakeHeaderDetailView.swift */; };
+		D9304FC527B0692200CF3299 /* MakeCourseDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9304FC427B0692200CF3299 /* MakeCourseDescriptionCell.swift */; };
+		D960CBA127B130BC00DA065F /* CourseModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D960CBA027B130BC00DA065F /* CourseModalController.swift */; };
+		D960CBA327B1634900DA065F /* CommentInputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D960CBA227B1634900DA065F /* CommentInputs.swift */; };
+		D964142C27A310BE0006D9E0 /* MakeCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D964142B27A310BE0006D9E0 /* MakeCategoryTableViewCell.swift */; };
+		D964142E27A37EB10006D9E0 /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = D964142D27A37EB10006D9E0 /* Code.swift */; };
+		D964143127A4D8FE0006D9E0 /* CategoryMakeCoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D964143027A4D8FE0006D9E0 /* CategoryMakeCoursesViewController.swift */; };
+		D964143427A56D4E0006D9E0 /* CategoryCourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D964143327A56D4E0006D9E0 /* CategoryCourseModel.swift */; };
+		D964143627A583A90006D9E0 /* CategoryDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D964143527A583A90006D9E0 /* CategoryDiffableDataSource.swift */; };
+		D9FB514027A6C1EA003018FA /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FB513F27A6C1EA003018FA /* CourseModel.swift */; };
+		D9FB514227A6EF02003018FA /* MakeCourseHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FB514127A6EF02003018FA /* MakeCourseHeaderView.swift */; };
+		D9FB514427A7443B003018FA /* CourseDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FB514327A7443B003018FA /* CourseDiffableDataSource.swift */; };
+		D9FB514627A74FAF003018FA /* MakeCourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FB514527A74FAF003018FA /* MakeCourseTableViewCell.swift */; };
+		D9FB514C27A7FEA2003018FA /* CourseMakeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FB514B27A7FEA2003018FA /* CourseMakeDetailsViewController.swift */; };
+		D9FB514E27A8060B003018FA /* CourseDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FB514D27A8060B003018FA /* CourseDetailsModel.swift */; };
+		D9FB515227A812A3003018FA /* CourseDetailsDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FB515127A812A3003018FA /* CourseDetailsDiffableDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9140EB627A18F00009BD038 /* Westcoast Education.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Westcoast Education.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9140EB927A18F00009BD038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9140EBB27A18F00009BD038 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D9140EBD27A18F00009BD038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9140EC027A18F00009BD038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9140EC227A18F0A009BD038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9140EC527A18F0A009BD038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9140EC727A18F0A009BD038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9140ED027A20684009BD038 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		D9140ED827A21B8A009BD038 /* CategoryMakeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryMakeTableViewController.swift; sourceTree = "<group>"; };
+		D9304FBB27A9D0C400CF3299 /* MakeCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCourseViewController.swift; sourceTree = "<group>"; };
+		D9304FC227AD6FEF00CF3299 /* MakeHeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeHeaderDetailView.swift; sourceTree = "<group>"; };
+		D9304FC427B0692200CF3299 /* MakeCourseDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCourseDescriptionCell.swift; sourceTree = "<group>"; };
+		D960CBA027B130BC00DA065F /* CourseModalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModalController.swift; sourceTree = "<group>"; };
+		D960CBA227B1634900DA065F /* CommentInputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputs.swift; sourceTree = "<group>"; };
+		D964142B27A310BE0006D9E0 /* MakeCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		D964142D27A37EB10006D9E0 /* Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
+		D964143027A4D8FE0006D9E0 /* CategoryMakeCoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryMakeCoursesViewController.swift; sourceTree = "<group>"; };
+		D964143327A56D4E0006D9E0 /* CategoryCourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCourseModel.swift; sourceTree = "<group>"; };
+		D964143527A583A90006D9E0 /* CategoryDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDiffableDataSource.swift; sourceTree = "<group>"; };
+		D9FB513F27A6C1EA003018FA /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
+		D9FB514127A6EF02003018FA /* MakeCourseHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCourseHeaderView.swift; sourceTree = "<group>"; };
+		D9FB514327A7443B003018FA /* CourseDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDiffableDataSource.swift; sourceTree = "<group>"; };
+		D9FB514527A74FAF003018FA /* MakeCourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCourseTableViewCell.swift; sourceTree = "<group>"; };
+		D9FB514B27A7FEA2003018FA /* CourseMakeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseMakeDetailsViewController.swift; sourceTree = "<group>"; };
+		D9FB514D27A8060B003018FA /* CourseDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsModel.swift; sourceTree = "<group>"; };
+		D9FB515127A812A3003018FA /* CourseDetailsDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsDiffableDataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9140EB327A18F00009BD038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90D1EDD27A5D816007C8C7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D964142B27A310BE0006D9E0 /* MakeCategoryTableViewCell.swift */,
+				D9FB514127A6EF02003018FA /* MakeCourseHeaderView.swift */,
+				D9FB514527A74FAF003018FA /* MakeCourseTableViewCell.swift */,
+				D9304FC227AD6FEF00CF3299 /* MakeHeaderDetailView.swift */,
+				D9304FC427B0692200CF3299 /* MakeCourseDescriptionCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9140EAD27A18EFF009BD038 = {
+			isa = PBXGroup;
+			children = (
+				D964142D27A37EB10006D9E0 /* Code.swift */,
+				D9140EB827A18F00009BD038 /* Westcoast Education */,
+				D9140EB727A18F00009BD038 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9140EB727A18F00009BD038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9140EB627A18F00009BD038 /* Westcoast Education.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9140EB827A18F00009BD038 /* Westcoast Education */ = {
+			isa = PBXGroup;
+			children = (
+				D9140ECF27A1FEC5009BD038 /* Controllers */,
+				D90D1EDD27A5D816007C8C7D /* Views */,
+				D964143227A56CA70006D9E0 /* Models */,
+				D9140EB927A18F00009BD038 /* AppDelegate.swift */,
+				D9140EBB27A18F00009BD038 /* SceneDelegate.swift */,
+				D9140EBD27A18F00009BD038 /* ViewController.swift */,
+				D9140EBF27A18F00009BD038 /* Main.storyboard */,
+				D9140EC227A18F0A009BD038 /* Assets.xcassets */,
+				D9140EC427A18F0A009BD038 /* LaunchScreen.storyboard */,
+				D9140EC727A18F0A009BD038 /* Info.plist */,
+			);
+			path = "Westcoast Education";
+			sourceTree = "<group>";
+		};
+		D9140ECF27A1FEC5009BD038 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9140ED827A21B8A009BD038 /* CategoryMakeTableViewController.swift */,
+				D9304FBB27A9D0C400CF3299 /* MakeCourseViewController.swift */,
+				D9FB514B27A7FEA2003018FA /* CourseMakeDetailsViewController.swift */,
+				D960CBA027B130BC00DA065F /* CourseModalController.swift */,
+				D9304FBE27AAB40F00CF3299 /* NotInUse */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D9304FBE27AAB40F00CF3299 /* NotInUse */ = {
+			isa = PBXGroup;
+			children = (
+				D9140ED027A20684009BD038 /* CategoryViewController.swift */,
+				D964143027A4D8FE0006D9E0 /* CategoryMakeCoursesViewController.swift */,
+			);
+			path = NotInUse;
+			sourceTree = "<group>";
+		};
+		D9304FBF27AAB44F00CF3299 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				D9FB515127A812A3003018FA /* CourseDetailsDiffableDataSource.swift */,
+				D9FB514327A7443B003018FA /* CourseDiffableDataSource.swift */,
+				D964143527A583A90006D9E0 /* CategoryDiffableDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		D964143227A56CA70006D9E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D964143327A56D4E0006D9E0 /* CategoryCourseModel.swift */,
+				D9FB513F27A6C1EA003018FA /* CourseModel.swift */,
+				D9FB514D27A8060B003018FA /* CourseDetailsModel.swift */,
+				D960CBA227B1634900DA065F /* CommentInputs.swift */,
+				D9304FBF27AAB44F00CF3299 /* DataSource */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9140EB527A18F00009BD038 /* Westcoast Education */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9140ECA27A18F0A009BD038 /* Build configuration list for PBXNativeTarget "Westcoast Education" */;
+			buildPhases = (
+				D9140EB227A18F00009BD038 /* Sources */,
+				D9140EB327A18F00009BD038 /* Frameworks */,
+				D9140EB427A18F00009BD038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Westcoast Education";
+			productName = "Westcoast Education";
+			productReference = D9140EB627A18F00009BD038 /* Westcoast Education.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9140EAE27A18EFF009BD038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D9140EB527A18F00009BD038 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = D9140EB127A18EFF009BD038 /* Build configuration list for PBXProject "Westcoast Education" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9140EAD27A18EFF009BD038;
+			productRefGroup = D9140EB727A18F00009BD038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9140EB527A18F00009BD038 /* Westcoast Education */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9140EB427A18F00009BD038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9140EC627A18F0A009BD038 /* LaunchScreen.storyboard in Resources */,
+				D9140EC327A18F0A009BD038 /* Assets.xcassets in Resources */,
+				D9140EC127A18F00009BD038 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9140EB227A18F00009BD038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FB514427A7443B003018FA /* CourseDiffableDataSource.swift in Sources */,
+				D9304FC527B0692200CF3299 /* MakeCourseDescriptionCell.swift in Sources */,
+				D964143627A583A90006D9E0 /* CategoryDiffableDataSource.swift in Sources */,
+				D960CBA127B130BC00DA065F /* CourseModalController.swift in Sources */,
+				D9140ED127A20684009BD038 /* CategoryViewController.swift in Sources */,
+				D9FB515227A812A3003018FA /* CourseDetailsDiffableDataSource.swift in Sources */,
+				D964143127A4D8FE0006D9E0 /* CategoryMakeCoursesViewController.swift in Sources */,
+				D9140EBE27A18F00009BD038 /* ViewController.swift in Sources */,
+				D9FB514227A6EF02003018FA /* MakeCourseHeaderView.swift in Sources */,
+				D9FB514627A74FAF003018FA /* MakeCourseTableViewCell.swift in Sources */,
+				D960CBA327B1634900DA065F /* CommentInputs.swift in Sources */,
+				D9140EBA27A18F00009BD038 /* AppDelegate.swift in Sources */,
+				D9304FBC27A9D0C400CF3299 /* MakeCourseViewController.swift in Sources */,
+				D9304FC327AD6FEF00CF3299 /* MakeHeaderDetailView.swift in Sources */,
+				D964143427A56D4E0006D9E0 /* CategoryCourseModel.swift in Sources */,
+				D9140ED927A21B8A009BD038 /* CategoryMakeTableViewController.swift in Sources */,
+				D9FB514027A6C1EA003018FA /* CourseModel.swift in Sources */,
+				D9FB514E27A8060B003018FA /* CourseDetailsModel.swift in Sources */,
+				D9140EBC27A18F00009BD038 /* SceneDelegate.swift in Sources */,
+				D964142E27A37EB10006D9E0 /* Code.swift in Sources */,
+				D964142C27A310BE0006D9E0 /* MakeCategoryTableViewCell.swift in Sources */,
+				D9FB514C27A7FEA2003018FA /* CourseMakeDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9140EBF27A18F00009BD038 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9140EC027A18F00009BD038 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9140EC427A18F0A009BD038 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9140EC527A18F0A009BD038 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9140EC827A18F0A009BD038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9140EC927A18F0A009BD038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9140ECB27A18F0A009BD038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MT4BJVMV26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Westcoast Education/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.demo-dev.Westcoast-Education";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9140ECC27A18F0A009BD038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MT4BJVMV26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Westcoast Education/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.demo-dev.Westcoast-Education";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9140EB127A18EFF009BD038 /* Build configuration list for PBXProject "Westcoast Education" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9140EC827A18F0A009BD038 /* Debug */,
+				D9140EC927A18F0A009BD038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9140ECA27A18F0A009BD038 /* Build configuration list for PBXNativeTarget "Westcoast Education" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9140ECB27A18F0A009BD038 /* Debug */,
+				D9140ECC27A18F0A009BD038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9140EAE27A18EFF009BD038 /* Project object */;
+}
