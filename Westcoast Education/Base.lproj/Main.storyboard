@@ -50,10 +50,10 @@
                                 <rect key="frame" x="0.0" y="140" width="390" height="621"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gEO-r6-gOZ" userLabel="Top">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="207"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="310.66666666666669"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wc_logo" translatesAutoresizingMaskIntoConstraints="NO" id="k7G-c2-KMk">
-                                                <rect key="frame" x="135" y="43.666666666666657" width="120" height="120"/>
+                                                <rect key="frame" x="135" y="95.333333333333343" width="120" height="120"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="120" id="50P-NM-x0J"/>
                                                     <constraint firstAttribute="height" constant="120" id="5h5-Sn-zWa"/>
@@ -66,10 +66,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ka3-kz-eBN" userLabel="Middle">
-                                        <rect key="frame" x="0.0" y="207" width="390" height="207"/>
+                                        <rect key="frame" x="0.0" y="310.66666666666674" width="390" height="310.33333333333326"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="HTg-Yc-qBm" userLabel="Middle Stack View">
-                                                <rect key="frame" x="16" y="6" width="358" height="195"/>
+                                                <rect key="frame" x="16" y="-20" width="358" height="195"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Här kan du få mer information om våra kurser. Missa inte att markera dina favoritkurser. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gbH-Am-g7V">
                                                         <rect key="frame" x="0.0" y="0.0" width="358" height="102"/>
@@ -82,7 +82,7 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Chc-c6-dGo" userLabel="Button Stack View">
-                                                        <rect key="frame" x="69.333333333333329" y="106" width="219.66666666666669" height="89"/>
+                                                        <rect key="frame" x="69.333333333333329" y="105.99999999999994" width="219.66666666666669" height="89"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZdK-EW-rYz" userLabel="Category Button">
                                                                 <rect key="frame" x="0.0" y="0.0" width="219.66666666666666" height="40"/>
@@ -92,10 +92,10 @@
                                                                 </constraints>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="filled" title="KURSKATEGORIER">
-                                                                    <backgroundConfiguration key="background" cornerRadius="25" strokeWidth="0.0" strokeOutset="0.0">
+                                                                    <backgroundConfiguration key="background" cornerRadius="5" strokeWidth="0.0" strokeOutset="0.0">
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                     </backgroundConfiguration>
-                                                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
+                                                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                                                     <color key="baseForegroundColor" systemColor="systemTealColor"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -110,10 +110,10 @@
                                                                 </constraints>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="filled" title="INFO">
-                                                                    <backgroundConfiguration key="background" cornerRadius="25" strokeWidth="0.0" strokeOutset="0.0">
+                                                                    <backgroundConfiguration key="background" cornerRadius="5" strokeWidth="0.0" strokeOutset="0.0">
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                     </backgroundConfiguration>
-                                                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
+                                                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                                                     <color key="baseForegroundColor" systemColor="systemTealColor"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -127,12 +127,9 @@
                                             </stackView>
                                         </subviews>
                                         <constraints>
+                                            <constraint firstItem="HTg-Yc-qBm" firstAttribute="top" secondItem="ka3-kz-eBN" secondAttribute="top" constant="-20" id="Iqq-wn-bpl"/>
                                             <constraint firstItem="HTg-Yc-qBm" firstAttribute="centerX" secondItem="ka3-kz-eBN" secondAttribute="centerX" id="UDf-Vb-ks8"/>
-                                            <constraint firstItem="HTg-Yc-qBm" firstAttribute="centerY" secondItem="ka3-kz-eBN" secondAttribute="centerY" id="xv0-dd-Lzk"/>
                                         </constraints>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Qp-DG-m4b" userLabel="Bottom">
-                                        <rect key="frame" x="0.0" y="414" width="390" height="207"/>
                                     </view>
                                 </subviews>
                             </stackView>
@@ -158,32 +155,32 @@
         <scene sceneID="RcQ-Cl-V0Q">
             <objects>
                 <tableViewController title="CategoryMakeTableViewController" id="kmj-my-Hl2" customClass="CategoryMakeTableViewController" customModule="Westcoast_Education" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="ewv-iJ-nUp" userLabel="Category Table View">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="180" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="ewv-iJ-nUp" userLabel="Category Table View">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="761"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
-                        <color key="separatorColor" systemColor="secondarySystemBackgroundColor"/>
+                        <color key="separatorColor" systemColor="systemBackgroundColor"/>
                         <color key="sectionIndexBackgroundColor" systemColor="systemBlueColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="makeCategoryBaseCell" rowHeight="97" id="TLd-gp-CKf" userLabel="makeCategoryBaseCell" customClass="MakeCategoryTableViewCell" customModule="Westcoast_Education" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="97"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="makeCategoryBaseCell" rowHeight="200" id="TLd-gp-CKf" userLabel="makeCategoryBaseCell" customClass="MakeCategoryTableViewCell" customModule="Westcoast_Education" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="200"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TLd-gp-CKf" id="t0Y-Ba-HXV">
-                                    <rect key="frame" x="0.0" y="0.0" width="390" height="97"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="390" height="200"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="ddT-dd-CXX" userLabel="Root Stack View">
-                                            <rect key="frame" x="20" y="11" width="350" height="75"/>
+                                            <rect key="frame" x="20" y="11" width="350" height="178"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SBZ-Ec-TQg">
-                                                    <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                                                    <rect key="frame" x="0.0" y="51.666666666666657" width="75" height="75"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="75" id="2Pa-te-gzQ"/>
                                                         <constraint firstAttribute="width" constant="75" id="WaC-oa-u7t"/>
                                                     </constraints>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="VtE-WE-9Ac" userLabel="Cell Content Stack View">
-                                                    <rect key="frame" x="123" y="7.3333333333333321" width="227" height="60.666666666666671"/>
+                                                    <rect key="frame" x="123" y="58.666666666666671" width="227" height="60.666666666666671"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kategori" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rO-IJ-itM">
                                                             <rect key="frame" x="0.0" y="0.0" width="227" height="32.666666666666664"/>
@@ -192,7 +189,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0eddd" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RoN-DC-nyO">
-                                                            <rect key="frame" x="0.0" y="39.666666666666671" width="227" height="21"/>
+                                                            <rect key="frame" x="0.0" y="39.666666666666657" width="227" height="21"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                                             <color key="textColor" systemColor="systemBackgroundColor"/>
                                                             <nil key="highlightedColor"/>
@@ -233,10 +230,11 @@
         <scene sceneID="Ktb-te-L6D">
             <objects>
                 <tableViewController id="jDs-Df-rtJ" userLabel="CourseMakeTableViewController" customClass="MakeCourseViewController" customModule="Westcoast_Education" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="A9p-iv-qxg" userLabel="Course Table View">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="A9p-iv-qxg" userLabel="Course Table View">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="761"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <color key="separatorColor" systemColor="systemTealColor"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="wlb-2L-QmM" userLabel="Header View" customClass="MakeCourseHeaderView" customModule="Westcoast_Education" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="390" height="150"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -436,9 +434,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="200" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="uCq-5W-s2K" userLabel="Course Details Table View">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="200" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="uCq-5W-s2K" userLabel="Course Details Table View">
                                 <rect key="frame" x="0.0" y="140" width="390" height="621"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="separatorColor" systemColor="systemTealColor"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="f2z-RN-5xy" userLabel="Detail Header View" customClass="MakeHeaderDetailView" customModule="Westcoast_Education" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="150"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -582,22 +582,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="201"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtC-EZ-rLC">
-                                                    <rect key="frame" x="20" y="11" width="350" height="179"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="57" id="NaF-bo-YQp"/>
-                                                    </constraints>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtC-EZ-rLC">
+                                                    <rect key="frame" x="20" y="11" width="350" height="158"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="bottomMargin" secondItem="dtC-EZ-rLC" secondAttribute="bottom" id="IJ5-bi-kPL"/>
-                                                <constraint firstItem="dtC-EZ-rLC" firstAttribute="leading" secondItem="uxG-qs-vIl" secondAttribute="leadingMargin" id="TbR-sX-puk"/>
-                                                <constraint firstItem="dtC-EZ-rLC" firstAttribute="top" secondItem="uxG-qs-vIl" secondAttribute="topMargin" id="YS7-Cc-chl"/>
-                                                <constraint firstItem="dtC-EZ-rLC" firstAttribute="trailing" secondItem="uxG-qs-vIl" secondAttribute="trailingMargin" id="cgy-p2-wvH"/>
-                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="courseDescription" destination="dtC-EZ-rLC" id="uMo-Pf-2rh"/>
