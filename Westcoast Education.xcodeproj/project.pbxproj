@@ -21,7 +21,6 @@
 		D960CBA127B130BC00DA065F /* CourseModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D960CBA027B130BC00DA065F /* CourseModalController.swift */; };
 		D960CBA327B1634900DA065F /* CommentInputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D960CBA227B1634900DA065F /* CommentInputs.swift */; };
 		D964142C27A310BE0006D9E0 /* MakeCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D964142B27A310BE0006D9E0 /* MakeCategoryTableViewCell.swift */; };
-		D964142E27A37EB10006D9E0 /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = D964142D27A37EB10006D9E0 /* Code.swift */; };
 		D964143127A4D8FE0006D9E0 /* CategoryMakeCoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D964143027A4D8FE0006D9E0 /* CategoryMakeCoursesViewController.swift */; };
 		D964143427A56D4E0006D9E0 /* CategoryCourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D964143327A56D4E0006D9E0 /* CategoryCourseModel.swift */; };
 		D964143627A583A90006D9E0 /* CategoryDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D964143527A583A90006D9E0 /* CategoryDiffableDataSource.swift */; };
@@ -51,7 +50,6 @@
 		D960CBA027B130BC00DA065F /* CourseModalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModalController.swift; sourceTree = "<group>"; };
 		D960CBA227B1634900DA065F /* CommentInputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputs.swift; sourceTree = "<group>"; };
 		D964142B27A310BE0006D9E0 /* MakeCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCategoryTableViewCell.swift; sourceTree = "<group>"; };
-		D964142D27A37EB10006D9E0 /* Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
 		D964143027A4D8FE0006D9E0 /* CategoryMakeCoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryMakeCoursesViewController.swift; sourceTree = "<group>"; };
 		D964143327A56D4E0006D9E0 /* CategoryCourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCourseModel.swift; sourceTree = "<group>"; };
 		D964143527A583A90006D9E0 /* CategoryDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDiffableDataSource.swift; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 		D9140EAD27A18EFF009BD038 = {
 			isa = PBXGroup;
 			children = (
-				D964142D27A37EB10006D9E0 /* Code.swift */,
 				D9140EB827A18F00009BD038 /* Westcoast Education */,
 				D9140EB727A18F00009BD038 /* Products */,
 			);
@@ -254,7 +251,6 @@
 				D9FB514027A6C1EA003018FA /* CourseModel.swift in Sources */,
 				D9FB514E27A8060B003018FA /* CourseDetailsModel.swift in Sources */,
 				D9140EBC27A18F00009BD038 /* SceneDelegate.swift in Sources */,
-				D964142E27A37EB10006D9E0 /* Code.swift in Sources */,
 				D964142C27A310BE0006D9E0 /* MakeCategoryTableViewCell.swift in Sources */,
 				D9FB514C27A7FEA2003018FA /* CourseMakeDetailsViewController.swift in Sources */,
 			);
