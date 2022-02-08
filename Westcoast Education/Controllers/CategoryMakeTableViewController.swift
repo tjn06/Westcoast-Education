@@ -14,10 +14,6 @@ class CategoryMakeTableViewController: UITableViewController {
     // Handeling dataSource, functioncall in property, waits for execution until it exists
     lazy var dataSource = setupDataSource()
     
-
-    
-
-    
     var categories: [Category] = [
         Category(category: "Angular", logoImage: "angular", courses: [
             Course(courseName: "Routing", subInfo: "Svårighet: medel", courseDetails:[
@@ -83,9 +79,7 @@ class CategoryMakeTableViewController: UITableViewController {
         ]),
     ]
     
-    //var categories = ["Android", "Angular", "CSS3", ".NET", "HTML5", "Photoshop", "React"]
-    //var logos = ["android", "angular", "css", "dotnet", "html", "photoshop", "react"]
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Init tableViewDataSource
@@ -141,9 +135,6 @@ class CategoryMakeTableViewController: UITableViewController {
     }
 
 }
-
-
-
 
 
 
